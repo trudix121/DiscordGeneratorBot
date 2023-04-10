@@ -6,6 +6,7 @@ from config import channel
 from discord import *
 from discord import app_commands
 from discord.ext import commands
+from dotenv import load_dotenv
 from discord.ext.commands import has_permissions
 color = 'F80E06'
 
@@ -81,6 +82,6 @@ async def stock(ctx):
 
 
 
-client.run('YOUR TOKEN HERE')
+client.run(os.environ.get('TOKEN'))
 #ctx.send(f'{stock}')
 
