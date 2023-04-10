@@ -81,6 +81,6 @@ async def stock(ctx):
 
 
 
-client.run('MTA2NjA2MzM2NTkzMzM3MTQwMg.GQIhFr.cyFA0fuTj_XtXApPKHEc7niKkj74et7DSjO-As')
+client.run('YOUR TOKEN HERE')
 #ctx.send(f'{stock}')
 
